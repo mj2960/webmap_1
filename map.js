@@ -14,7 +14,7 @@ var map = new mapboxgl.Map({
     // zoom: 14
 });
 var trees_url = "./data/nyc_harlemriverstreettrees_4326.geojson"
-
+var disaster_url = "./data/Disaster_Tour_Only.geojson"
 
 map.on('load',function(){
 
