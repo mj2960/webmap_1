@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "Disaster_Tour_Only",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "The Presbytere" }, "geometry": { "type": "Point", "coordinates": [ -90.063238965694836, 29.957964176621012 ] } },
+{ "type": "Feature", "properties": { "Name": "Esplanade Ave" }, "geometry": { "type": "Point", "coordinates": [ -90.059956993288068, 29.963334676923012 ] } },
+{ "type": "Feature", "properties": { "Name": "Mid-City Yacht Club" }, "geometry": { "type": "Point", "coordinates": [ -90.11006622488182, 29.975305941580359 ] } },
+{ "type": "Feature", "properties": { "Name": "17th Street Canal Breach" }, "geometry": { "type": "Point", "coordinates": [ -90.068550487567649, 30.00869147916902 ] } },
+{ "type": "Feature", "properties": { "Name": "Katrina Memorial" }, "geometry": { "type": "Point", "coordinates": [ -90.120465245408937, 30.017477739731504 ] } },
+{ "type": "Feature", "properties": { "Name": "London Ave Canal Breach" }, "geometry": { "type": "Point", "coordinates": [ -90.067479824111388, 29.970012812179711 ] } },
+{ "type": "Feature", "properties": { "Name": "Claiborne Ave" }, "geometry": { "type": "Point", "coordinates": [ -90.066833994588009, 29.970658641703093 ] } },
+{ "type": "Feature", "properties": { "Name": "Mother in Law Lounge" }, "geometry": { "type": "Point", "coordinates": [ -90.06544297715304, 29.972049659138069 ] } },
+{ "type": "Feature", "properties": { "Name": "Circle Foods" }, "geometry": { "type": "Point", "coordinates": [ -90.049346918262614, 29.973838110125893 ] } },
+{ "type": "Feature", "properties": { "Name": "Musicians Village" }, "geometry": { "type": "Point", "coordinates": [ -90.03332537816334, 29.973838110125893 ] } },
+{ "type": "Feature", "properties": { "Name": "Industrial Canal Levee Breach and Locks" }, "geometry": { "type": "Point", "coordinates": [ -90.020855900442669, 29.972198696720383 ] } },
+{ "type": "Feature", "properties": { "Name": "Tennessee Street and The Make it Right Foundation" }, "geometry": { "type": "Point", "coordinates": [ -90.018520978319685, 29.973440676573041 ] } },
+{ "type": "Feature", "properties": { "Name": "St. Claude Ave and Post Katrina Gentrification" }, "geometry": { "type": "Point", "coordinates": [ -90.023016945386303, 29.962759649840201 ] } },
+{ "type": "Feature", "properties": { "Name": "Fats Domino's House" }, "geometry": { "type": "Point", "coordinates": [ -90.016409612570172, 29.962163499510929 ] } },
+{ "type": "Feature", "properties": { "Name": "House of Dance and Feathers" }, "geometry": { "type": "Point", "coordinates": [ -90.010348750889207, 29.961666707569865 ] } }
+]
+}
