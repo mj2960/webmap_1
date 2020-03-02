@@ -13,8 +13,8 @@ var map = new mapboxgl.Map({
     // center: [-73.93324, 40.80877],
     // zoom: 14
 });
-var trees_url = "./data/nyc_harlemriverstreettrees_4326.geojson"
-var disaster_url = "./data/Disaster_Tour_Only.geojson"
+var trees_url = "./nyc_harlemriverstreettrees_4326.geojson"
+var disaster_url = "./Disaster_Tour_Only.geojson"
 
 map.on('load',function(){
 
@@ -37,7 +37,7 @@ map.addSource('nypl',{
     // define a 'source' for your point dataset
     map.addSource('trees_data',{
       'type':'geojson',
-      'data': ".nyc_harlemriverstreettrees_4326.geojson"
+      'data': "nyc_harlemriverstreettrees_4326.geojson"
     });
     // add a new layer with your points
     map.addLayer({
