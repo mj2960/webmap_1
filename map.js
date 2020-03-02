@@ -37,7 +37,7 @@ map.addSource('nypl',{
     // define a 'source' for your point dataset
     map.addSource('trees_data',{
       'type':'geojson',
-      'data': "./data/nyc_harlemriverstreettrees_4326.geojson"
+      'data': ".nyc_harlemriverstreettrees_4326.geojson"
     });
     // add a new layer with your points
     map.addLayer({
@@ -53,7 +53,7 @@ map.addSource('nypl',{
     //add layer with point dataset for disaster tour
     map.addSource('disaster_data',{
         'type':'geojson',
-        'data': "./data/Disaster_Tour_Only.geojson"
+        'data': "Disaster_Tour_Only.geojson"
       });
       //add layer for the points
     map.addLayer({
