@@ -50,6 +50,22 @@ map.addSource('nypl',{
         'circle-opacity':0.7
       },
     })
+    //add layer with point dataset for disaster tour
+    map.addSource('disaster_data',{
+        'type':'geojson',
+        'data': "./data/Disaster_Tour_Only.geojson"
+      });
+      //add layer for the points
+    map.addLayer({
+        'id':'disaster',
+        'type':'circle',
+        'source':'disaster_data',
+        'paint':{
+          'circle-radius':4,
+          'circle-color': '#FF0000',
+          'circle-opacity':0.7
+        },
+      })
   
   
   });
